@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix windows compilation [#7389](https://github.com/deepflowio/deepflow/pull/7389) by [rvql](https://github.com/rvql)
 * fix: Fix missing pod interface in macvlan mode [#7315](https://github.com/deepflowio/deepflow/pull/7315) by [rvql](https://github.com/rvql)
 * fix: agent - incorrect http2 log [#7296](https://github.com/deepflowio/deepflow/pull/7296) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: the flow_tag of prometheus may be lost under multiple organizations [#7294](https://github.com/deepflowio/deepflow/pull/7294) by [lzf575](https://github.com/lzf575)
@@ -46,6 +47,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Modify tracemap url [#7391](https://github.com/deepflowio/deepflow/pull/7391) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - eBPF Whitelist implementation reassembly [#7316](https://github.com/deepflowio/deepflow/pull/7316) by [yinjiping](https://github.com/yinjiping)
 * feat: Change remote exec param to use regex [#7314](https://github.com/deepflowio/deepflow/pull/7314) by [rvql](https://github.com/rvql)
 * feat: mark the resource information of loopback traffic by Agent info [#7305](https://github.com/deepflowio/deepflow/pull/7305) by [lzf575](https://github.com/lzf575)
