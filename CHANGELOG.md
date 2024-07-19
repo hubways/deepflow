@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: update agent commands permission [#7480](https://github.com/deepflowio/deepflow/pull/7480) by [roryye](https://github.com/roryye)
+* fix: Delete an alarm policy #25866 [#7478](https://github.com/deepflowio/deepflow/pull/7478) by [Ericsssss](https://github.com/Ericsssss)
+* fix: solve the problem that sql is changed to lowercase [#7475](https://github.com/deepflowio/deepflow/pull/7475) by [duandaa](https://github.com/duandaa)
 * fix: Resolve cover show metrics use query cache can be configured problem [#7405](https://github.com/deepflowio/deepflow/pull/7405) by [duandaa](https://github.com/duandaa)
 * fix: lo interface eBPF data needs to use Agent info to match resources [#7404](https://github.com/deepflowio/deepflow/pull/7404) by [lzf575](https://github.com/lzf575)
 * fix: deepflow-server may panic when updating platform information [#7400](https://github.com/deepflowio/deepflow/pull/7400) by [lzf575](https://github.com/lzf575)
@@ -66,6 +69,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Querier support no limit [#7473](https://github.com/deepflowio/deepflow/pull/7473) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent adds the CommandParam fields, modifies the param validation method [#7464](https://github.com/deepflowio/deepflow/pull/7464) by [TomatoMr](https://github.com/TomatoMr)
 * feat: Get metrics ignore certain databases [#7427](https://github.com/deepflowio/deepflow/pull/7427) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Get metrics ignore time [#7425](https://github.com/deepflowio/deepflow/pull/7425) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - dispatcher support set cpu affinity [#7424](https://github.com/deepflowio/deepflow/pull/7424) by [yuanchaoa](https://github.com/yuanchaoa)
