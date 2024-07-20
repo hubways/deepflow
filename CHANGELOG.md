@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Continuous Java profiling support for linux 3.10 [#7486](https://github.com/deepflowio/deepflow/pull/7486) by [yinjiping](https://github.com/yinjiping)
 * fix: Resolve cover show metrics use query cache can be configured problem [#7405](https://github.com/deepflowio/deepflow/pull/7405) by [duandaa](https://github.com/duandaa)
 * fix: lo interface eBPF data needs to use Agent info to match resources [#7404](https://github.com/deepflowio/deepflow/pull/7404) by [lzf575](https://github.com/lzf575)
 * fix: deepflow-server may panic when updating platform information [#7400](https://github.com/deepflowio/deepflow/pull/7400) by [lzf575](https://github.com/lzf575)
@@ -66,6 +67,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support alarm event updated to alert event [#7457](https://github.com/deepflowio/deepflow/pull/7457) by [lzf575](https://github.com/lzf575)
+* feat: agent - support ingore vlan pcp [#7449](https://github.com/deepflowio/deepflow/pull/7449) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Get metrics ignore certain databases [#7427](https://github.com/deepflowio/deepflow/pull/7427) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Get metrics ignore time [#7425](https://github.com/deepflowio/deepflow/pull/7425) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - dispatcher support set cpu affinity [#7424](https://github.com/deepflowio/deepflow/pull/7424) by [yuanchaoa](https://github.com/yuanchaoa)
