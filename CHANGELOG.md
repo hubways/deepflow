@@ -66,6 +66,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Remove tracing for HEAD type requests in NGINX [#7491](https://github.com/deepflowio/deepflow/pull/7491) by [yinjiping](https://github.com/yinjiping)
 * feat: Get metrics ignore certain databases [#7427](https://github.com/deepflowio/deepflow/pull/7427) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Get metrics ignore time [#7425](https://github.com/deepflowio/deepflow/pull/7425) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - dispatcher support set cpu affinity [#7424](https://github.com/deepflowio/deepflow/pull/7424) by [yuanchaoa](https://github.com/yuanchaoa)
