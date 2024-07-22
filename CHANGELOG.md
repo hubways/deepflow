@@ -66,6 +66,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add gitee mirror [#7502](https://github.com/deepflowio/deepflow/pull/7502) by [Nick-0314](https://github.com/Nick-0314)
+* feat: create k8s assign cluster id [#7415](https://github.com/deepflowio/deepflow/pull/7415) by [askyrie](https://github.com/askyrie)
 * feat: Get metrics ignore certain databases [#7427](https://github.com/deepflowio/deepflow/pull/7427) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Get metrics ignore time [#7425](https://github.com/deepflowio/deepflow/pull/7425) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - dispatcher support set cpu affinity [#7424](https://github.com/deepflowio/deepflow/pull/7424) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -122,6 +124,8 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: cli update and deepflow-server update message [#7500](https://github.com/deepflowio/deepflow/pull/7500) by [lzf575](https://github.com/lzf575)
+* refactor: server message update [#7498](https://github.com/deepflowio/deepflow/pull/7498) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: trace_tree add topic field [#7418](https://github.com/deepflowio/deepflow/pull/7418) by [lzf575](https://github.com/lzf575)
 * refactor: trace-id-with-index is enabled by default and the type is hash [#7416](https://github.com/deepflowio/deepflow/pull/7416) by [lzf575](https://github.com/lzf575)
 * refactor: Ingester add default value config [#7395](https://github.com/deepflowio/deepflow/pull/7395) by [lzf575](https://github.com/lzf575)
