@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent fix check_params failed when param is empty [#7509](https://github.com/deepflowio/deepflow/pull/7509) by [TomatoMr](https://github.com/TomatoMr)
+* fix: Do not verify dynamic tags [#7504](https://github.com/deepflowio/deepflow/pull/7504) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: filter agent command by type name [#7501](https://github.com/deepflowio/deepflow/pull/7501) by [roryye](https://github.com/roryye)
 * fix: Resolve cover show metrics use query cache can be configured problem [#7405](https://github.com/deepflowio/deepflow/pull/7405) by [duandaa](https://github.com/duandaa)
 * fix: lo interface eBPF data needs to use Agent info to match resources [#7404](https://github.com/deepflowio/deepflow/pull/7404) by [lzf575](https://github.com/lzf575)
 * fix: deepflow-server may panic when updating platform information [#7400](https://github.com/deepflowio/deepflow/pull/7400) by [lzf575](https://github.com/lzf575)
@@ -66,6 +69,18 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Server exporters support tag-filter-condition config (#7492) [#7524](https://github.com/deepflowio/deepflow/pull/7524) by [lzf575](https://github.com/lzf575)
+* feat: agent - eBPF Persist Java symbol table (#7325) [#7522](https://github.com/deepflowio/deepflow/pull/7522) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - Add description of mirror-traffic-pcp [#7520](https://github.com/deepflowio/deepflow/pull/7520) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: alert event add target_tags [#7517](https://github.com/deepflowio/deepflow/pull/7517) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* feat: agent - support server port [#7514](https://github.com/deepflowio/deepflow/pull/7514) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: update create k8s check [#7513](https://github.com/deepflowio/deepflow/pull/7513) by [askyrie](https://github.com/askyrie)
+* feat: add  debug_sql_length_max config [#7511](https://github.com/deepflowio/deepflow/pull/7511) by [duandaa](https://github.com/duandaa)
+* feat: prevents dirty data from increasing MySQL IO [#7510](https://github.com/deepflowio/deepflow/pull/7510) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: Support memory profile [#7506](https://github.com/deepflowio/deepflow/pull/7506) by [rvql](https://github.com/rvql)
+* feat: Profile support mem-inuse [#7503](https://github.com/deepflowio/deepflow/pull/7503) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: refactors recorder pubsub ResourceUpdatedSubscriber interface [#7407](https://github.com/deepflowio/deepflow/pull/7407) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: server encapsulates logger to support flexible recording of org information. [#7280](https://github.com/deepflowio/deepflow/pull/7280) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: Get metrics ignore certain databases [#7427](https://github.com/deepflowio/deepflow/pull/7427) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Get metrics ignore time [#7425](https://github.com/deepflowio/deepflow/pull/7425) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - dispatcher support set cpu affinity [#7424](https://github.com/deepflowio/deepflow/pull/7424) by [yuanchaoa](https://github.com/yuanchaoa)
