@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: data under all organizations should be cleared when disk is full [#7565](https://github.com/deepflowio/deepflow/pull/7565) by [lzf575](https://github.com/lzf575)
+* fix: do not pub to tagrecorder [#7563](https://github.com/deepflowio/deepflow/pull/7563) by [askyrie](https://github.com/askyrie)
+* fix: add agent cmd timeout to config [#7536](https://github.com/deepflowio/deepflow/pull/7536) by [roryye](https://github.com/roryye)
 * fix: Resolve cover show metrics use query cache can be configured problem [#7405](https://github.com/deepflowio/deepflow/pull/7405) by [duandaa](https://github.com/duandaa)
 * fix: lo interface eBPF data needs to use Agent info to match resources [#7404](https://github.com/deepflowio/deepflow/pull/7404) by [lzf575](https://github.com/lzf575)
 * fix: deepflow-server may panic when updating platform information [#7400](https://github.com/deepflowio/deepflow/pull/7400) by [lzf575](https://github.com/lzf575)
@@ -66,6 +69,14 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Table alert_event add tag [#7564](https://github.com/deepflowio/deepflow/pull/7564) by [Ericsssss](https://github.com/Ericsssss)
+* feat: alert event add fields [#7558](https://github.com/deepflowio/deepflow/pull/7558) by [lzf575](https://github.com/lzf575)
+* feat: change auto name  [#7557](https://github.com/deepflowio/deepflow/pull/7557) by [duandaa](https://github.com/duandaa)
+* feat: modify alert_event user_filter condition [#7556](https://github.com/deepflowio/deepflow/pull/7556) by [Ericsssss](https://github.com/Ericsssss)
+* feat: alert event add new filed [#7555](https://github.com/deepflowio/deepflow/pull/7555) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* feat: alert event add _target_uid [#7549](https://github.com/deepflowio/deepflow/pull/7549) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* feat: update data source collection event.alarm_event to event.alert_e… [#7539](https://github.com/deepflowio/deepflow/pull/7539) by [roryye](https://github.com/roryye)
+* feat: change service translation [#7538](https://github.com/deepflowio/deepflow/pull/7538) by [duandaa](https://github.com/duandaa)
 * feat: Get metrics ignore certain databases [#7427](https://github.com/deepflowio/deepflow/pull/7427) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Get metrics ignore time [#7425](https://github.com/deepflowio/deepflow/pull/7425) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - dispatcher support set cpu affinity [#7424](https://github.com/deepflowio/deepflow/pull/7424) by [yuanchaoa](https://github.com/yuanchaoa)
