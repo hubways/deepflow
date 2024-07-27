@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: CVE-2024-35195 vuln [#7590](https://github.com/deepflowio/deepflow/pull/7590) by [fengshunli](https://github.com/fengshunli)
+* fix: agent - windows compile error [#7588](https://github.com/deepflowio/deepflow/pull/7588) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: agent - missing cbpf l7 log [#7587](https://github.com/deepflowio/deepflow/pull/7587) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: data under all organizations should be cleared when disk is full [#7565](https://github.com/deepflowio/deepflow/pull/7565) by [lzf575](https://github.com/lzf575)
 * fix: do not pub to tagrecorder [#7563](https://github.com/deepflowio/deepflow/pull/7563) by [askyrie](https://github.com/askyrie)
 * fix: add agent cmd timeout to config [#7536](https://github.com/deepflowio/deepflow/pull/7536) by [roryye](https://github.com/roryye)
@@ -81,6 +84,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - support parallel protocols [#7582](https://github.com/deepflowio/deepflow/pull/7582) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Table alert_event add tag [#7564](https://github.com/deepflowio/deepflow/pull/7564) by [Ericsssss](https://github.com/Ericsssss)
 * feat: alert event add fields [#7558](https://github.com/deepflowio/deepflow/pull/7558) by [lzf575](https://github.com/lzf575)
 * feat: change auto name  [#7557](https://github.com/deepflowio/deepflow/pull/7557) by [duandaa](https://github.com/duandaa)
