@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: restart agent after enabling ntp [#7661](https://github.com/deepflowio/deepflow/pull/7661) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: agent Redis cannot close obfuscation [#7653](https://github.com/deepflowio/deepflow/pull/7653) by [TomatoMr](https://github.com/TomatoMr)
 * fix: fix agent traffic log [#7620](https://github.com/deepflowio/deepflow/pull/7620) by [roryye](https://github.com/roryye)
 * fix: Memory counter error [#7619](https://github.com/deepflowio/deepflow/pull/7619) by [rvql](https://github.com/rvql)
 * fix: Fix off-by-one error in java symbol rewrite [#7613](https://github.com/deepflowio/deepflow/pull/7613) by [rvql](https://github.com/rvql)
@@ -93,6 +95,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Improve aggregation efficiency of stack-trace string [#7655](https://github.com/deepflowio/deepflow/pull/7655) by [yinjiping](https://github.com/yinjiping)
+* feat: Table alert_event add tags and modify metric_value function error #26054 [#7652](https://github.com/deepflowio/deepflow/pull/7652) by [Ericsssss](https://github.com/Ericsssss)
+* feat: agent add syscall_trace_id_disabled [#7547](https://github.com/deepflowio/deepflow/pull/7547) by [TomatoMr](https://github.com/TomatoMr)
 * feat: support default team in domain create api [#7622](https://github.com/deepflowio/deepflow/pull/7622) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: Modify app_service and app_instance tag type and filter condition [#7621](https://github.com/deepflowio/deepflow/pull/7621) by [Ericsssss](https://github.com/Ericsssss)
 * feat: unifies legacy log organization info [#7618](https://github.com/deepflowio/deepflow/pull/7618) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -229,12 +234,13 @@
 * perf: improve parsing RequestResource from http.url of OTel data [#7172](https://github.com/deepflowio/deepflow/pull/7172) by [lzf575](https://github.com/lzf575)
 
 #### Documentation
+* docs: agent correct the description of inputs.ebpf.socket.tunning [#7664](https://github.com/deepflowio/deepflow/pull/7664) by [TomatoMr](https://github.com/TomatoMr)
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
-
 
 #### Chore
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 
 #### OTHER
+* Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
 * refacter: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
